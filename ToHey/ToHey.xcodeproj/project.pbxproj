@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07675BB0DADB5F678BA6011C /* Pods_ToHeyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F561DF24E68DEE6B1DD3B323 /* Pods_ToHeyTests.framework */; };
+		3C13C9E528267A8E00032B90 /* Phrase.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C13C9E428267A8E00032B90 /* Phrase.plist */; };
+		3C5C017B28251AD80099059E /* GenCommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C017A28251AD80099059E /* GenCommentViewModel.swift */; };
+		3C5C018028251DC20099059E /* GenCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C017F28251DC20099059E /* GenCommentView.swift */; };
+		3C83D5872823DA3F00276955 /* ToHeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83D5862823DA3F00276955 /* ToHeyApp.swift */; };
+		3C83D58B2823DA4100276955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C83D58A2823DA4100276955 /* Assets.xcassets */; };
+		3C83D58E2823DA4100276955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C83D58D2823DA4100276955 /* Preview Assets.xcassets */; };
+		3C83D5982823DA4200276955 /* ToHeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83D5972823DA4200276955 /* ToHeyTests.swift */; };
+		3C83D5A22823DA4200276955 /* ToHeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83D5A12823DA4200276955 /* ToHeyUITests.swift */; };
+		3C83D5A42823DA4200276955 /* ToHeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83D5A32823DA4200276955 /* ToHeyUITestsLaunchTests.swift */; };
+		A5CABF59943001DBC3909DE8 /* Pods_ToHey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6AC303C0FD28F0450BF24A /* Pods_ToHey.framework */; };
+		F2FB3A4B69565CAB18A2CD17 /* Pods_ToHey_ToHeyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3D9A879F3CCEBC999F26F7 /* Pods_ToHey_ToHeyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C83D5942823DA4200276955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C83D57B2823DA3F00276955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C83D5822823DA3F00276955;
+			remoteInfo = ToHey;
+		};
+		3C83D59E2823DA4200276955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C83D57B2823DA3F00276955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C83D5822823DA3F00276955;
+			remoteInfo = ToHey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010810EB34B1DD68419E9B85 /* Pods-ToHey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToHey.debug.xcconfig"; path = "Target Support Files/Pods-ToHey/Pods-ToHey.debug.xcconfig"; sourceTree = "<group>"; };
+		3C13C9E428267A8E00032B90 /* Phrase.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Phrase.plist; sourceTree = "<group>"; };
+		3C5C017A28251AD80099059E /* GenCommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenCommentViewModel.swift; sourceTree = "<group>"; };
+		3C5C017F28251DC20099059E /* GenCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenCommentView.swift; sourceTree = "<group>"; };
+		3C83D5832823DA3F00276955 /* ToHey™.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToHey™.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C83D5862823DA3F00276955 /* ToHeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToHeyApp.swift; sourceTree = "<group>"; };
+		3C83D58A2823DA4100276955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C83D58D2823DA4100276955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C83D5932823DA4200276955 /* ToHeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToHeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C83D5972823DA4200276955 /* ToHeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToHeyTests.swift; sourceTree = "<group>"; };
+		3C83D59D2823DA4200276955 /* ToHeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToHeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C83D5A12823DA4200276955 /* ToHeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToHeyUITests.swift; sourceTree = "<group>"; };
+		3C83D5A32823DA4200276955 /* ToHeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToHeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		692F9667E5EA91927B652B80 /* Pods-ToHey-ToHeyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToHey-ToHeyUITests.debug.xcconfig"; path = "Target Support Files/Pods-ToHey-ToHeyUITests/Pods-ToHey-ToHeyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3D9A879F3CCEBC999F26F7 /* Pods_ToHey_ToHeyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToHey_ToHeyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6AC303C0FD28F0450BF24A /* Pods_ToHey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToHey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EF7BA7E4D742C4BBC55628 /* Pods-ToHey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToHey.release.xcconfig"; path = "Target Support Files/Pods-ToHey/Pods-ToHey.release.xcconfig"; sourceTree = "<group>"; };
+		EA3033921E0A95FAE94EB05F /* Pods-ToHeyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToHeyTests.debug.xcconfig"; path = "Target Support Files/Pods-ToHeyTests/Pods-ToHeyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0684E89BEBFA8C890815EB /* Pods-ToHey-ToHeyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToHey-ToHeyUITests.release.xcconfig"; path = "Target Support Files/Pods-ToHey-ToHeyUITests/Pods-ToHey-ToHeyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4D1BFE63849469742924527 /* Pods-ToHeyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToHeyTests.release.xcconfig"; path = "Target Support Files/Pods-ToHeyTests/Pods-ToHeyTests.release.xcconfig"; sourceTree = "<group>"; };
+		F561DF24E68DEE6B1DD3B323 /* Pods_ToHeyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToHeyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C83D5802823DA3F00276955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CABF59943001DBC3909DE8 /* Pods_ToHey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83D5902823DA4200276955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07675BB0DADB5F678BA6011C /* Pods_ToHeyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83D59A2823DA4200276955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB3A4B69565CAB18A2CD17 /* Pods_ToHey_ToHeyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C13C9E328267A5700032B90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C13C9E428267A8E00032B90 /* Phrase.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C13C9E62826843000032B90 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3C5C017C28251D810099059E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C13C9E62826843000032B90 /* Tools */,
+				3C5C017F28251DC20099059E /* GenCommentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C5C017D28251D870099059E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C017A28251AD80099059E /* GenCommentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C5C017E28251D900099059E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C83D57A2823DA3F00276955 = {
+			isa = PBXGroup;
+			children = (
+				3C83D5852823DA3F00276955 /* ToHey */,
+				3C83D5962823DA4200276955 /* ToHeyTests */,
+				3C83D5A02823DA4200276955 /* ToHeyUITests */,
+				3C83D5842823DA3F00276955 /* Products */,
+				D3C747BD4BB9E1B25DB56FB6 /* Pods */,
+				FE89C2F8A60C9C85A6753CFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C83D5842823DA3F00276955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C83D5832823DA3F00276955 /* ToHey™.app */,
+				3C83D5932823DA4200276955 /* ToHeyTests.xctest */,
+				3C83D59D2823DA4200276955 /* ToHeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C83D5852823DA3F00276955 /* ToHey */ = {
+			isa = PBXGroup;
+			children = (
+				3C13C9E328267A5700032B90 /* Resources */,
+				3C5C017E28251D900099059E /* Model */,
+				3C5C017D28251D870099059E /* ViewModel */,
+				3C5C017C28251D810099059E /* View */,
+				3C83D5862823DA3F00276955 /* ToHeyApp.swift */,
+				3C83D58A2823DA4100276955 /* Assets.xcassets */,
+				3C83D58C2823DA4100276955 /* Preview Content */,
+			);
+			path = ToHey;
+			sourceTree = "<group>";
+		};
+		3C83D58C2823DA4100276955 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C83D58D2823DA4100276955 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C83D5962823DA4200276955 /* ToHeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C83D5972823DA4200276955 /* ToHeyTests.swift */,
+			);
+			path = ToHeyTests;
+			sourceTree = "<group>";
+		};
+		3C83D5A02823DA4200276955 /* ToHeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C83D5A12823DA4200276955 /* ToHeyUITests.swift */,
+				3C83D5A32823DA4200276955 /* ToHeyUITestsLaunchTests.swift */,
+			);
+			path = ToHeyUITests;
+			sourceTree = "<group>";
+		};
+		D3C747BD4BB9E1B25DB56FB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				010810EB34B1DD68419E9B85 /* Pods-ToHey.debug.xcconfig */,
+				E0EF7BA7E4D742C4BBC55628 /* Pods-ToHey.release.xcconfig */,
+				692F9667E5EA91927B652B80 /* Pods-ToHey-ToHeyUITests.debug.xcconfig */,
+				EB0684E89BEBFA8C890815EB /* Pods-ToHey-ToHeyUITests.release.xcconfig */,
+				EA3033921E0A95FAE94EB05F /* Pods-ToHeyTests.debug.xcconfig */,
+				F4D1BFE63849469742924527 /* Pods-ToHeyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE89C2F8A60C9C85A6753CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF6AC303C0FD28F0450BF24A /* Pods_ToHey.framework */,
+				9F3D9A879F3CCEBC999F26F7 /* Pods_ToHey_ToHeyUITests.framework */,
+				F561DF24E68DEE6B1DD3B323 /* Pods_ToHeyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C83D5822823DA3F00276955 /* ToHey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C83D5A72823DA4200276955 /* Build configuration list for PBXNativeTarget "ToHey" */;
+			buildPhases = (
+				687ECF537331B3902A26F7D1 /* [CP] Check Pods Manifest.lock */,
+				3C83D57F2823DA3F00276955 /* Sources */,
+				3C83D5802823DA3F00276955 /* Frameworks */,
+				3C83D5812823DA3F00276955 /* Resources */,
+				2C988082EDA77563DE78F3D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToHey;
+			productName = ToHey;
+			productReference = 3C83D5832823DA3F00276955 /* ToHey™.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C83D5922823DA4200276955 /* ToHeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C83D5AA2823DA4200276955 /* Build configuration list for PBXNativeTarget "ToHeyTests" */;
+			buildPhases = (
+				4B039E07C7CB51102CF54C2B /* [CP] Check Pods Manifest.lock */,
+				3C83D58F2823DA4200276955 /* Sources */,
+				3C83D5902823DA4200276955 /* Frameworks */,
+				3C83D5912823DA4200276955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C83D5952823DA4200276955 /* PBXTargetDependency */,
+			);
+			name = ToHeyTests;
+			productName = ToHeyTests;
+			productReference = 3C83D5932823DA4200276955 /* ToHeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C83D59C2823DA4200276955 /* ToHeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C83D5AD2823DA4200276955 /* Build configuration list for PBXNativeTarget "ToHeyUITests" */;
+			buildPhases = (
+				A45770E5B718EBEA1728A0EF /* [CP] Check Pods Manifest.lock */,
+				3C83D5992823DA4200276955 /* Sources */,
+				3C83D59A2823DA4200276955 /* Frameworks */,
+				3C83D59B2823DA4200276955 /* Resources */,
+				0015BCCC0A899AECB202FD79 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C83D59F2823DA4200276955 /* PBXTargetDependency */,
+			);
+			name = ToHeyUITests;
+			productName = ToHeyUITests;
+			productReference = 3C83D59D2823DA4200276955 /* ToHeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C83D57B2823DA3F00276955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3C83D5822823DA3F00276955 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3C83D5922823DA4200276955 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C83D5822823DA3F00276955;
+					};
+					3C83D59C2823DA4200276955 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C83D5822823DA3F00276955;
+					};
+				};
+			};
+			buildConfigurationList = 3C83D57E2823DA3F00276955 /* Build configuration list for PBXProject "ToHey" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C83D57A2823DA3F00276955;
+			productRefGroup = 3C83D5842823DA3F00276955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C83D5822823DA3F00276955 /* ToHey */,
+				3C83D5922823DA4200276955 /* ToHeyTests */,
+				3C83D59C2823DA4200276955 /* ToHeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C83D5812823DA3F00276955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83D58E2823DA4100276955 /* Preview Assets.xcassets in Resources */,
+				3C83D58B2823DA4100276955 /* Assets.xcassets in Resources */,
+				3C13C9E528267A8E00032B90 /* Phrase.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83D5912823DA4200276955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83D59B2823DA4200276955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0015BCCC0A899AECB202FD79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToHey-ToHeyUITests/Pods-ToHey-ToHeyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToHey-ToHeyUITests/Pods-ToHey-ToHeyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToHey-ToHeyUITests/Pods-ToHey-ToHeyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C988082EDA77563DE78F3D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToHey/Pods-ToHey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToHey/Pods-ToHey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToHey/Pods-ToHey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B039E07C7CB51102CF54C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToHeyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687ECF537331B3902A26F7D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToHey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45770E5B718EBEA1728A0EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToHey-ToHeyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C83D57F2823DA3F00276955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C017B28251AD80099059E /* GenCommentViewModel.swift in Sources */,
+				3C83D5872823DA3F00276955 /* ToHeyApp.swift in Sources */,
+				3C5C018028251DC20099059E /* GenCommentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83D58F2823DA4200276955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83D5982823DA4200276955 /* ToHeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83D5992823DA4200276955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83D5A42823DA4200276955 /* ToHeyUITestsLaunchTests.swift in Sources */,
+				3C83D5A22823DA4200276955 /* ToHeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C83D5952823DA4200276955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C83D5822823DA3F00276955 /* ToHey */;
+			targetProxy = 3C83D5942823DA4200276955 /* PBXContainerItemProxy */;
+		};
+		3C83D59F2823DA4200276955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C83D5822823DA3F00276955 /* ToHey */;
+			targetProxy = 3C83D59E2823DA4200276955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C83D5A52823DA4200276955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C83D5A62823DA4200276955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C83D5A82823DA4200276955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010810EB34B1DD68419E9B85 /* Pods-ToHey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToHey/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZND7CXE7U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHey;
+				PRODUCT_NAME = "ToHey™";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C83D5A92823DA4200276955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EF7BA7E4D742C4BBC55628 /* Pods-ToHey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToHey/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZND7CXE7U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHey;
+				PRODUCT_NAME = "ToHey™";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C83D5AB2823DA4200276955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3033921E0A95FAE94EB05F /* Pods-ToHeyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZND7CXE7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToHey.app/ToHey";
+			};
+			name = Debug;
+		};
+		3C83D5AC2823DA4200276955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D1BFE63849469742924527 /* Pods-ToHeyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZND7CXE7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToHey.app/ToHey";
+			};
+			name = Release;
+		};
+		3C83D5AE2823DA4200276955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692F9667E5EA91927B652B80 /* Pods-ToHey-ToHeyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZND7CXE7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToHey;
+			};
+			name = Debug;
+		};
+		3C83D5AF2823DA4200276955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0684E89BEBFA8C890815EB /* Pods-ToHey-ToHeyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZND7CXE7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToHey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C83D57E2823DA3F00276955 /* Build configuration list for PBXProject "ToHey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C83D5A52823DA4200276955 /* Debug */,
+				3C83D5A62823DA4200276955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C83D5A72823DA4200276955 /* Build configuration list for PBXNativeTarget "ToHey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C83D5A82823DA4200276955 /* Debug */,
+				3C83D5A92823DA4200276955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C83D5AA2823DA4200276955 /* Build configuration list for PBXNativeTarget "ToHeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C83D5AB2823DA4200276955 /* Debug */,
+				3C83D5AC2823DA4200276955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C83D5AD2823DA4200276955 /* Build configuration list for PBXNativeTarget "ToHeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C83D5AE2823DA4200276955 /* Debug */,
+				3C83D5AF2823DA4200276955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C83D57B2823DA3F00276955 /* Project object */;
+}
