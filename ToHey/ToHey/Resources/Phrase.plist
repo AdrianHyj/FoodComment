@@ -4,16 +4,25 @@
 <array>
 	<array>
 		<string>味道超赞，而且一看就让人觉得很有食欲，但是分量不大，属于比较精致的类型。</string>
+        <string>味道普通，不好吃也不难吃，就是常规菜品的味道。</string>
+        <string>假期过来吃饭，可能时间还有点早，人不是很多环境比较舒服，没有吵闹的声音。</string>
         <string>菜品也很新鲜，味道咸淡适中，而且火候掌握的刚好</string>
+        <string>这家餐厅环境很好，非常干净整洁，食物不仅外形美观，重要的是味道非常棒，色味俱佳</string>
 	</array>
     <array>
         <string>上菜速度很快。</string>
         <string>环境很好，非常干净整洁，食物不仅外形美观，重要的是味道非常棒，色味俱佳。</string>
         <string>用餐环境不错。</string>
+        <string>性价比很高，强烈推荐。</string>
+        <string>做法保留了食材原有的味道，清新爽口。</string>
     </array>
     <array>
         <string>价格非常实惠，以后还会再来。</string>
         <string>用料十分新鲜，给的量也很足，性价比超级高。</string>
+        <string>做法保留了食材原有的味道，清新爽口。</string>
+        <string>适合带着朋友一起去。</string>
+        <string>环境属于安静的那种，味道中规中矩吧.</string>
+        <string>适合带着朋友一起去。</string>
     </array>
 </array>
 </plist>

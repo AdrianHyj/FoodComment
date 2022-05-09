@@ -200,7 +200,6 @@
 				EA3033921E0A95FAE94EB05F /* Pods-ToHeyTests.debug.xcconfig */,
 				F4D1BFE63849469742924527 /* Pods-ToHeyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -612,7 +611,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToHey/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZND7CXE7U;
@@ -631,6 +631,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHey;
 				PRODUCT_NAME = "ToHey™";
+				PROVISIONING_PROFILE_SPECIFIER = Comment;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -643,7 +644,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToHey/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZND7CXE7U;
@@ -660,8 +662,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.helio.ToHey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helio.tohey;
 				PRODUCT_NAME = "ToHey™";
+				PROVISIONING_PROFILE_SPECIFIER = Comments_Inhouse;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
